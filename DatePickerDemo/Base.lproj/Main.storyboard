@@ -80,7 +80,7 @@
                                         </connections>
                                     </button>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
                                 <constraints>
                                     <constraint firstItem="Ewq-Ni-CxA" firstAttribute="centerX" secondItem="37W-Wp-6hN" secondAttribute="centerX" id="He5-6E-eIS"/>
                                     <constraint firstItem="Ewq-Ni-CxA" firstAttribute="top" secondItem="37W-Wp-6hN" secondAttribute="bottom" constant="30" id="Nd0-1U-HQd"/>
@@ -116,6 +116,9 @@
         <image name="chevron.down" catalog="system" width="128" height="72"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="secondarySystemBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
