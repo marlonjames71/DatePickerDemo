@@ -99,6 +99,7 @@ class DatePickerViewController: UIViewController {
 
         let point1 = CGPoint(x: 0.7, y: -0.6)
         let point2 = CGPoint(x: 0.32, y: 1.29)
+
         let animator = UIViewPropertyAnimator(duration: 0.3, controlPoint1: point1, controlPoint2: point2) {
             self.datePickerContainer.alpha = 0
             self.datePicker.alpha = 0
